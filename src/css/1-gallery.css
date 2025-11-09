@@ -1,0 +1,24 @@
+.js-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 24px auto;
+  list-style: none;
+  max-width: 1128px;
+  max-height: 648px;
+  gap: 24px;
+  justify-content: center;
+  padding: 0;
+}
+
+.js-gallery-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.js-gallery-image {
+  width: 360px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0;
+}
