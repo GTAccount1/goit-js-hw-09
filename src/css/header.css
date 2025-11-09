@@ -3,23 +3,25 @@
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-.nav-logo {
+/* .nav-logo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 40px;
+  list-style: none;
 }
 .nav-link {
   position: relative;
   display: block;
-  font-weight: 500;
+  font-size: xx-large;
+  font-weight: 700;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
 }
